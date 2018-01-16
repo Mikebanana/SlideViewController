@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.titleArray = @[@"项目信息",@"相关资料",@"投资记录"];
+    UIViewController *vc1 = [UIViewController new];
+    vc1.view.backgroundColor = [UIColor redColor];
+    UIViewController *vc2 = [UIViewController new];
+    vc2.view.backgroundColor = [UIColor yellowColor];
+    UIViewController *vc3 = [UIViewController new];
+    vc3.view.backgroundColor = [UIColor blueColor];
+    self.controllerArray = @[vc1,vc2,vc3];
 }
 
 

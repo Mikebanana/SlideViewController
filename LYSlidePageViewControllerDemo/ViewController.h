@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "LYSlidePageViewController.h"
+@interface ViewController : LYSlidePageViewController
 
 
 @end
